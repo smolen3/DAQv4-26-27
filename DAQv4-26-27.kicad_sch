@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "cbe418a7-f727-405b-87dd-9a1de7bc4b30")
-	(paper "B")
+	(paper "C")
 	(lib_symbols
 		(symbol "MCU_ST_STM32H7:STM32H745IITx"
 			(exclude_from_sim no)
@@ -4325,7 +4325,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32H7:STM32H745IITx")
-		(at 213.36 133.35 0)
+		(at 290.83 271.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4336,7 +4336,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cbbb652-126f-4cbd-b267-22a428f60266")
 		(property "Reference" "U1"
-			(at 218.0433 234.95 0)
+			(at 295.5133 373.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4347,7 +4347,7 @@
 			)
 		)
 		(property "Value" "STM32H745IITx"
-			(at 218.0433 237.49 0)
+			(at 295.5133 375.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4358,7 +4358,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-176_24x24mm_P0.5mm"
-			(at 170.18 232.41 0)
+			(at 247.65 370.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4370,7 +4370,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h745ii.pdf"
-			(at 213.36 133.35 0)
+			(at 290.83 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4381,7 +4381,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M7 MCU, 2048KB flash, 1024KB RAM, 480 MHz, 1.62-3.6V, 121 GPIO, LQFP176"
-			(at 213.36 133.35 0)
+			(at 290.83 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
