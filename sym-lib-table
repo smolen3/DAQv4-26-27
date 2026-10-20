@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "New_Library") (type "KiCad") (uri "${KIPRJMOD}/New_Library.kicad_sym") (options "") (descr ""))
+	(lib (name "ADS7066IRTER") (type "KiCad") (uri "C:/Users/jacks/Downloads/LIB_ADS7066IRTER/ADS7066IRTER/KiCad/ADS7066IRTER.kicad_sym") (options "") (descr ""))
+)
