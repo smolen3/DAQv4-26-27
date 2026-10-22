@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "BQ27427") (type "KiCad") (uri "${KIPRJMOD}/../External Components/ul_BQ27427YZFR/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "LoRa1262-915") (type "KiCad") (uri "${KIPRJMOD}/../External Components/LORA1262-915") (options "") (descr ""))
+	(lib (name "TPS63802D") (type "KiCad") (uri "${KIPRJMOD}/../External Components/ul_TPS63802DLAR/KiCADv6/footprints.pretty") (options "") (descr ""))
+)
