@@ -449,6 +449,395 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Analog_ADC:ADS1220xPW"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -15.24 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ADS1220xPW"
+				(at 6.35 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+				(at 6.35 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1220.pdf"
+				(at -12.7 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Low-power, quad-input, 24-bit analog to digital converter, integrated temperature sensor, SPI interface, TSSOP-16 package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "adc spi"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*TSSOP*4.4x5mm*P0.65mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ADS1220xPW_0_1"
+				(rectangle
+					(start -15.24 10.16)
+					(end 15.24 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ADS1220xPW_1_1"
+				(pin input line
+					(at 17.78 7.62 180)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -7.62 180)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -12.7 90)
+					(length 2.54)
+					(name "AVSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -5.08 0)
+					(length 2.54)
+					(name "AIN3/REFN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 2.54)
+					(name "AIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -7.62 0)
+					(length 2.54)
+					(name "REFN0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 2.54)
+					(name "REFP0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 2.54)
+					(name "AIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 2.54)
+					(name "AIN0/REFP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 12.7 270)
+					(length 2.54)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -5.08 180)
+					(length 2.54)
+					(name "~{DRDY}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 2.54 180)
+					(length 2.54)
+					(name "DOUT/~{DRDY}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 5.08 180)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016)
@@ -6415,84 +6804,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 151.13 227.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ec14c2a-5635-4e09-8e02-bdfce78192f7")
-		(property "Reference" "#PWR07"
-			(at 151.13 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 151.13 232.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b3bab08-b6af-4b7c-ba86-08ea714cc9e3")
-		)
-		(instances
-			(project "DAQv4-26-27"
-				(path "/cbe418a7-f727-405b-87dd-9a1de7bc4b30"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ADS7066IRTER:ADS7066IRTER")
 		(at 434.34 194.31 0)
 		(unit 1)
@@ -6789,6 +7100,131 @@
 			(project "DAQv4-26-27"
 				(path "/cbe418a7-f727-405b-87dd-9a1de7bc4b30"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_ADC:ADS1220xPW")
+		(at 154.94 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c9e0d6c-7ca4-44d7-aefb-b0d3e6925f45")
+		(property "Reference" "U4"
+			(at 159.6233 259.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS1220xPW"
+			(at 159.6233 261.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+			(at 161.29 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1220.pdf"
+			(at 142.24 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-power, quad-input, 24-bit analog to digital converter, integrated temperature sensor, SPI interface, TSSOP-16 package"
+			(at 154.94 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "2a4c8ebe-cfbf-44e1-bc0b-620855e8f929")
+		)
+		(pin "13"
+			(uuid "15939b0b-e525-4fb9-a126-f7ae7a3ec179")
+		)
+		(pin "12"
+			(uuid "69a09dea-f573-4c41-889f-bbee5cc7d884")
+		)
+		(pin "16"
+			(uuid "48f4ddb2-7d8d-4e88-8092-d8e0f03c4145")
+		)
+		(pin "9"
+			(uuid "53962758-f9a0-4d49-8192-fc3a3dd2fdc2")
+		)
+		(pin "4"
+			(uuid "01f8f51b-b71e-4c88-8062-ce33b31216d8")
+		)
+		(pin "5"
+			(uuid "ca997e9c-71bd-49f2-bc71-b6b48c549919")
+		)
+		(pin "7"
+			(uuid "32710734-03fe-4190-ba2a-1c69165c147d")
+		)
+		(pin "2"
+			(uuid "cbdd99b8-82cd-4dfc-ab8e-1c5e0163ccd9")
+		)
+		(pin "15"
+			(uuid "0e60535a-6a35-4b49-a8a6-542042524e54")
+		)
+		(pin "10"
+			(uuid "6ffbb343-7144-45fb-935b-0f98b79a09d2")
+		)
+		(pin "11"
+			(uuid "318f5a67-f0f6-4b5f-84f9-bfb45534f531")
+		)
+		(pin "1"
+			(uuid "a4e297c6-e620-4c68-b19a-e46e30453a3a")
+		)
+		(pin "14"
+			(uuid "13f758c3-bc28-47b2-9ff8-e9c5f91cc1d9")
+		)
+		(pin "8"
+			(uuid "891b1ad8-6e47-47f4-ad3d-cb0b3d4cee0a")
+		)
+		(pin "3"
+			(uuid "00e227bf-5675-422c-a4c1-edd2a1b226b6")
+		)
+		(instances
+			(project "DAQv4-26-27"
+				(path "/cbe418a7-f727-405b-87dd-9a1de7bc4b30"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7673,193 +8109,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ADS7066IRTER:ADS7066IRTER")
-		(at 128.27 194.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a74fcea7-3404-4886-b2f7-000abe63183e")
-		(property "Reference" "IC1"
-			(at 172.72 187.8898 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADS7066IRTER"
-			(at 172.72 190.4298 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "QFN50P300X300X80-17N-D"
-			(at 165.1 271.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads7066.pdf?ts=1708383444470&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FADS7066%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-wwe%2526utm_content%253D"
-			(at 165.1 371.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Analog to Digital Converters - ADC Eight-channel, 250-kSPS, 16-bit analog-to-digital converter with internal reference, GPIOs and SPI 16-WQFN -40 to 125"
-			(at 128.27 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.8"
-			(at 165.1 571.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "595-ADS7066IRTER"
-			(at 165.1 671.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS7066IRTER?qs=ST9lo4GX8V1NXvZuWWBhPA%3D%3D"
-			(at 165.1 771.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 165.1 871.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ADS7066IRTER"
-			(at 165.1 971.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "5"
-			(uuid "d94bdb82-85b4-4bb0-8c21-161d8400684c")
-		)
-		(pin "6"
-			(uuid "6d4ac261-f89e-437c-957e-3b8afff0f609")
-		)
-		(pin "8"
-			(uuid "d33ebc75-8e61-4f13-8eec-8960e83c3d5f")
-		)
-		(pin "14"
-			(uuid "c2f771a3-b77c-4e22-9c77-122e10942f53")
-		)
-		(pin "1"
-			(uuid "d9828a56-eac3-4d43-a78d-0e06d5ebdb71")
-		)
-		(pin "16"
-			(uuid "48a3a3bf-dc8e-45da-809c-13e92fc86633")
-		)
-		(pin "2"
-			(uuid "e8fa8c87-0476-4888-b321-7a9c58e7a6eb")
-		)
-		(pin "10"
-			(uuid "10f11a34-0aee-4a15-8a7e-bcb5be9b4b1a")
-		)
-		(pin "12"
-			(uuid "93546459-b2e0-43e3-ab12-0fa9e37d624e")
-		)
-		(pin "9"
-			(uuid "dacfca69-75a5-4855-a493-86011484bcfc")
-		)
-		(pin "13"
-			(uuid "3e967ccb-abc7-4bfa-b750-56c1e16f8f39")
-		)
-		(pin "4"
-			(uuid "260015c7-a227-4c6a-8861-624664b2f0bc")
-		)
-		(pin "7"
-			(uuid "3ae7ad46-ffae-48b4-9330-95a5a21e5ba1")
-		)
-		(pin "3"
-			(uuid "1cccb28a-85fd-49ec-a521-22bcdcf81e45")
-		)
-		(pin "15"
-			(uuid "b322ca3a-67d5-4243-938a-9b699f911cf4")
-		)
-		(pin "11"
-			(uuid "ea3bda20-68ae-4394-aa50-e39eae77cfa9")
-		)
-		(pin "17"
-			(uuid "3ce32449-3a76-4199-87f6-78d116ded968")
-		)
-		(instances
-			(project "DAQv4-26-27"
-				(path "/cbe418a7-f727-405b-87dd-9a1de7bc4b30"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-Capacitor:0.1uF_0402_16V_10%")
 		(at 57.15 194.31 0)
 		(unit 1)
@@ -8433,6 +8682,131 @@
 			(project "DAQv4-26-27"
 				(path "/cbe418a7-f727-405b-87dd-9a1de7bc4b30"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_ADC:ADS1220xPW")
+		(at 156.21 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6746826-230d-4cbf-b108-48b87b07faf8")
+		(property "Reference" "U3"
+			(at 160.8933 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS1220xPW"
+			(at 160.8933 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+			(at 162.56 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1220.pdf"
+			(at 143.51 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-power, quad-input, 24-bit analog to digital converter, integrated temperature sensor, SPI interface, TSSOP-16 package"
+			(at 156.21 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "433eba53-6796-4ece-8717-64cc77c48f94")
+		)
+		(pin "2"
+			(uuid "6793d102-7393-4b86-98a3-f13e8470667f")
+		)
+		(pin "3"
+			(uuid "b09e247a-3e84-4259-bf07-3f287616642b")
+		)
+		(pin "4"
+			(uuid "9e7b0319-5983-45a9-9d8b-0c405aa96d0f")
+		)
+		(pin "1"
+			(uuid "c2562851-d384-4cca-915a-1b8f52843089")
+		)
+		(pin "7"
+			(uuid "d42ac036-bca5-4049-8bbe-d9113cde34ed")
+		)
+		(pin "8"
+			(uuid "d908570a-be65-4dce-ba87-0ea85450d19f")
+		)
+		(pin "9"
+			(uuid "1d4d8332-dec1-4edc-95d2-d804b731cd7f")
+		)
+		(pin "5"
+			(uuid "55b47e9f-0eed-4837-9ee8-683eb5197d1c")
+		)
+		(pin "6"
+			(uuid "28729c93-4e23-4908-9c6f-dcc3e23f77f3")
+		)
+		(pin "10"
+			(uuid "2c17473d-7f67-436f-a381-34985c43586f")
+		)
+		(pin "11"
+			(uuid "efcc45f4-b5c7-420c-b36c-ca2fc0b4ea08")
+		)
+		(pin "14"
+			(uuid "6472caba-28b3-43c9-84df-67aa945779f7")
+		)
+		(pin "13"
+			(uuid "0f15275a-fb1c-4a7c-9073-d7e951a715b0")
+		)
+		(pin "16"
+			(uuid "9310bec3-d3a3-433b-b922-8fd2e71eba70")
+		)
+		(pin "15"
+			(uuid "7f842f4b-f4d5-46a5-85e0-b5a9f21aa206")
+		)
+		(instances
+			(project "DAQv4-26-27"
+				(path "/cbe418a7-f727-405b-87dd-9a1de7bc4b30"
+					(reference "U3")
 					(unit 1)
 				)
 			)
