@@ -19263,7 +19263,7 @@
 	)
 	(symbol
 		(lib_id "ADS7066IRTER:ADS7066IRTER")
-		(at 123.19 198.12 0)
+		(at 140.97 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19274,7 +19274,7 @@
 		(fields_autoplaced yes)
 		(uuid "c97a782f-fc14-4ffe-9794-d7184621dc29")
 		(property "Reference" "IC3"
-			(at 167.64 191.6998 0)
+			(at 185.42 191.6998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19284,7 +19284,7 @@
 			)
 		)
 		(property "Value" "ADS7066IRTER"
-			(at 167.64 194.2398 0)
+			(at 185.42 194.2398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19294,7 +19294,7 @@
 			)
 		)
 		(property "Footprint" "QFN50P300X300X80-17N-D"
-			(at 160.02 275.26 0)
+			(at 177.8 275.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19306,7 +19306,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads7066.pdf?ts=1708383444470&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FADS7066%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-wwe%2526utm_content%253D"
-			(at 160.02 375.26 0)
+			(at 177.8 375.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19318,7 +19318,7 @@
 			)
 		)
 		(property "Description" "Analog to Digital Converters - ADC Eight-channel, 250-kSPS, 16-bit analog-to-digital converter with internal reference, GPIOs and SPI 16-WQFN -40 to 125"
-			(at 123.19 198.12 0)
+			(at 140.97 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19329,7 +19329,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at 160.02 575.26 0)
+			(at 177.8 575.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19341,7 +19341,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-ADS7066IRTER"
-			(at 160.02 675.26 0)
+			(at 177.8 675.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19353,7 +19353,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS7066IRTER?qs=ST9lo4GX8V1NXvZuWWBhPA%3D%3D"
-			(at 160.02 775.26 0)
+			(at 177.8 775.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19365,7 +19365,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 160.02 875.26 0)
+			(at 177.8 875.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19377,7 +19377,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ADS7066IRTER"
-			(at 160.02 975.26 0)
+			(at 177.8 975.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
